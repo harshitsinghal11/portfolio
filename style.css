@@ -221,32 +221,32 @@ nav {
   margin-bottom: 2rem;
 }
 
-.service__grid {
+.skills__grid {
   margin-top: 2rem;
   display: grid;
   gap: 1rem;
 }
 
-.service__card {
+.skills__card {
   padding: 2rem 1rem;
   text-align: center;
   border-radius: 1rem;
   border: 2px solid var(--white);
 }
 
-.service__card span {
+.skills__card span {
   display: inline-block;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
-.service__card h4 {
+.skills__card h4 {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.service__card p {
+.skills__card p {
   color: var(--white);
   line-height: 2rem;
 }
@@ -331,15 +331,15 @@ nav {
 .gitlg{
   filter: invert(100);
 }
-.contact__container {
+.Connect__container {
   text-align: center;
 }
 
-.contact__container .logo {
+.Connect__container .logo {
   margin-bottom: 1rem;
 }
 
-.contact__socials {
+.Connect__socials {
   margin-top: 2rem;
   display: flex;
   align-items: center;
@@ -348,7 +348,7 @@ nav {
   flex-wrap: wrap;
 }
 
-.contact__socials a {
+.Connect__socials a {
   padding: 7px 10px;
   font-size: 1.5rem;
   color: var(--white);
@@ -358,7 +358,7 @@ nav {
   transition: 0.3s;
 }
 
-.contact__socials a:hover {
+.Connect__socials a:hover {
   background: var(--gradient-2);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -371,7 +371,7 @@ nav {
 }
 
 @media (width > 576px) {
-  .service__grid {
+  .skills__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -467,7 +467,7 @@ nav {
     text-align: left;
   }
 
-  .service__grid {
+  .skills__grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
