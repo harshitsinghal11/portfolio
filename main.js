@@ -64,3 +64,21 @@ ScrollReveal().reveal(".portfolio__card", {
   duration: 1000,
   interval: 500,
 });
+
+// Disable right click with custom message
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+    alert("Right click is disabled by admin");
+}, false);
+
+// Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+document.addEventListener('keydown', function (e) {
+    if (e.key === "F12" || 
+        (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) ||
+        (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j')) ||
+        (e.ctrlKey && (e.key === 'U' || e.key === 'u'))) {
+        e.preventDefault();
+        alert("Developer tools Can't Be Opened");
+    }
+});
+
