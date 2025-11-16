@@ -303,29 +303,24 @@ nav {
   margin: 3rem auto;
   max-width: 1000px;
 }
-
-.tech__stack h3 {
-  font-size: 2rem;
-  color: var(--text-color, --white);
-  margin-bottom: 2rem;
-  font-weight: 600;
-}
-
 .tech__icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
 }
-
-.tech__icons img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  padding: 0.5rem;
+.tech__stack h3 {
+  font-size: 2rem;
+  color: var(--text-color, --white);
+  margin-bottom: 2rem;
+  font-weight: 600;
 }
+.tech__stack i{
+  font-size: 3.5rem;
+  padding: 0.5rem;
 
-.tech__icons img:hover {
+}
+.tech__icons i:hover {
   transform: scale(1.1);
 }
 .gitlg{
