@@ -251,6 +251,9 @@ nav {
   line-height: 2rem;
 }
 
+section h2{
+  margin-top: 1rem;
+}
 .portfolio__grid {
   margin-top: 2rem;
   display: grid;
@@ -463,7 +466,7 @@ nav {
   }
 
   .skills__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .portfolio__container :is(.section__header, .section__description) {
@@ -472,7 +475,7 @@ nav {
   }
 
   .portfolio__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .portfolio__banner {
